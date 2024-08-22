@@ -1,0 +1,34 @@
+body {
+    font-family: 'Lucida Console','Courier New', Courier, monospace;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+h1 {
+    color: #5f9ea0;
+}
+
+h2 {
+    background-color: #ffebcd;
+    color: #d2691e;
+}
+
+strong {
+    color: #d2691e;
+}
+
+figure {
+    border: thin #5f9ea0 solid;
+    padding: 5px;
+    width: fit-content;
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 12px;
+    background-color: #ffebcd;
+}
