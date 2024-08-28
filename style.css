@@ -1,5 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
-    font-family: 'Lucida Console','Courier New', Courier, monospace;
+    font-family: 'Lucida Console', 'Courier New', Courier, monospace;
 }
 
 img {
@@ -8,7 +16,18 @@ img {
 }
 
 h1 {
-    color: #5f9ea0;
+    background-color: #008b8b;
+    color: #87ceeb;
+    padding: 24px;
+}
+
+ul {
+    background-color: #f0f8ff;
+    padding: 24px;
+}
+
+li {
+    margin-bottom: 8px;
 }
 
 h2 {
